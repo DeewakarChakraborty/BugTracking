@@ -1,0 +1,55 @@
+
+<web-app>
+  <display-name>Bug Tracking System</display-name>  
+  
+  	<listener>
+  		<listener-class>listener.MyContextListener</listener-class>
+  	</listener>
+  	
+  	 <context-param>
+  		<param-name>permit</param-name>
+  		<param-value>no</param-value>
+  	</context-param>
+  
+  	<context-param>
+  		<param-name>user</param-name>
+  		<param-value>system</param-value>
+  	</context-param>
+  		<context-param>
+  		<param-name>password</param-name>
+  		<param-value>system</param-value>
+  	</context-param>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>SignUp</servlet-name>
+    <servlet-class>SignUp</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ReportBug</servlet-name>
+    <servlet-class>ReportBug</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>SignUp</servlet-name>
+    <url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ReportBug</servlet-name>
+    <url-pattern>/ReportBug</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+     <welcome-file>default.jsp</welcome-file>
+   </welcome-file-list>
+</web-app>

@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size:12px; background-color:#E8E8E8;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size:12px;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size:12px;
+}
+a:link {
+	color:#004284; text-decoration:none;
+}
+a:active {
+	color:#004284; text-decoration:none;
+}
+a:visited {
+	color:#004284; text-decoration:none;
+}
+a:hover{ text-decoration:underline;}
+
+.head{ font-size: 36px; font:"Book Antiqua"; color:#0063C6;}
+.greysmall{ font-size:10px; color:#999999;}
+.whitehead{ color:#FFFFFF; font-weight:bold}
+.inputtext{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+.errortext{ color:#C60000; font-size:10px}
+.smalltext{ font-size:11px;}
+.whitetext{ color:#FFFFFF;}
+
